@@ -1,0 +1,48 @@
+---
+title: "RMarkdown Practice"
+author: "SH"
+date: '2022-07-28'
+output: html_document
+---
+
+# Title
+
+## Main
+
+**bold**
+
+_italics_
+
+### Sub-section
+
+* one item
+* item 2
+* item 3
+  * sub-item 1
+- list item hyphen!
+  
+`code`
+
+1. number 1
+1. number 2
+1. number 3
+
+## Insert Code chunk
+
+```{r summary_cars, echo = T}
+summary(cars)
+```
+
+
+
+```{r, eval=F}
+summary(airquality)
+```
+
+## Inline code example below:
+
+number of rows in cars dataset is: `r nrow(cars)` whoa!
+
+`nrow(cars)`
+
+
